@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python version managers
+.python-version
+
+# Dependency lock files (optional, upload if using poetry/pipenv)
+# uv.lock      # Uncomment only if you want to track exact dependencies
+
+# Project settings
+*.egg-info/
+dist/
+build/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive / credentials
+.env
+config.json
+secret_keys.txt
+credentials/
+
+# Optional: test scripts
+# testing.py   # Uncomment if you want to ignore temporary test scripts
